@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    /* background-image: url(../imagens/fundo-celular.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../imagens/fundo-celular.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-bottom: 80px;
+    border-bottom: solid 8px #C54B3C;
+}
+
+.container-grid {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.icone-rede {
+    color: white;
+    font-size: 25px;
+}
+
+.conteudo-banner {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texto-banner {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lojas-app {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.topico {
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.topico h3 {
+    font-size: 25px;
+}
+
+.circulo {
+    background-color: #C54B3C;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.circulo i {
+    font-size: 18px;
+    color: white;
+}
+
+.secao-slogan {
+    background-color: #C54B3C;
+    color: white;
+    height: 120px;
+}
+
+.container-slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 25px;
+}
+
+.secao-seehow {
+    background-color: #393B47;
+    color: white;  
+    padding-top: 40px;  
+}
+
+.segunda-secao {
+    background-color: #2B2D39;
+}
+
+.secao-seehow h2 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: lighter;
+}
+
+.conteudo-seehow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.esquerda {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 175px;
+}
+
+.lapis {
+    color: #C54B3C;
+}
+
+.celular-seehow {
+    width: 30%;
+}
+
+.titulo-seehow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%
+}
+
+.titulo-seehow i, .titulo-seehow h3 {
+    font-size: 30px;
+}
+
+.fundo-bars {
+    background-color: #C54B3C;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.fundo-bars i {
+    font-size: 22px;
+}
+
+.secao-formulario {
+    background-color: #C54B3C;
+    padding: 40px 0;
+    color: white;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-form {
+    font-size: 43px;
+    font-weight: lighter;
+}
+
+.formulario {
+    width: 400px;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-form input {
+    /* font-size: 24px; */
+    height: 32px;
+}
+
+.campo-form textarea {
+    resize: none;
+}
+
+.formulario input[type="submit"] {
+    background-color: #AF4638;
+    border: none;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    width: 80px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #7a3229;
+    cursor: pointer;
+}
+
+footer {
+    height: 60px;
+}
+
+.container-footer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-footer span {
+    font-size: 12px;
+}
